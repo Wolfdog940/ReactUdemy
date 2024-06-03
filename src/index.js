@@ -1,13 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import {App} from './App';
 import reportWebVitals from './reportWebVitals';
+import { FirstAapp } from './FirstApp';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <App number = {20}/> */}
+     <FirstAapp title = 'Wolfdog '  subtitle = {940}/> 
   </React.StrictMode>
 );
 
